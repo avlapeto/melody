@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Melody</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+    <script src="js/shim/Base64binary.js"></script>
+    <script src="js/MIDI.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="control">
+        <div><input id="urlmelody" type="text" class="text-url-melody" value="/source/melody.json"><label for="urlmelody">Ссылка на файл</label></div>
+        <div><input id="idlmelody" type="text" class="id-url-melody" value="id1"><label for="idlmelody">ID контейнера</label></div>
+        <div><input type="button" class="button-add-melody" value="Загрузить"></div>
+    </div>
+</div>
+<div>
+    <ul>
+        <li>По клику на такт - проигрывает такт.</li>
+        <li>Клик на кнопку - проигрывает всю мелодию.</li>
+        <li>Клик по ноте убирает убирает ее из отображения (и из последующего воспроизведения).</li>
+        <li>Не до конца понял из задания нужно ли учитывать такты или нет, поэтому учитываю.</li>
+        <li>Допустимая продожительность нот 1/2/4/8/16/32;</li>
+        <li>Допустимые актавы 1 - 7;</li>
+        <li>Допустимые клавиши 1-7;</li>
+        <li>Возможно загрузить сторонний JSON для примера - <a href="http://lapeto.ru/melody/melody.json" target="_blank">тут</a>
+        </li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+<div class="error-container">
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+[
+  {
+    "octave" : 3,
+    "key" : 1,
+    "duration": 8
+  },
+  {
+    "octave" : 3,
+    "key" : 2,
+    "duration": 2
+  },
+  {
+  "octave" : 3,
+  "key" : 3,
+  "duration": 2
+  },
+  {
+    "octave" : 3,
+    "key" : 4,
+    "duration": 2
+  },
+  {
+    "octave" : 3,
+    "key" : 5,
+    "duration": 32
+  },
+  {
+    "octave" : 3,
+    "key" : 6,
+    "duration": 32
+  },
+  {
+    "octave" : 3,
+    "key" : 7,
+    "duration": 16
+  },
+  {
+    "octave" : 4,
+    "key" : 1,
+    "duration": 16
+  },
+  {
+    "octave" : 4,
+    "key" : 2,
+    "duration": 4
+  },
+  {
+    "octave" : 4,
+    "key" : 3,
+    "duration": 8
+  },
+  {
+    "octave" : 4,
+    "key" : 4,
+    "duration": 8
+  },
+  {
+    "octave" : 4,
+    "key" : 5,
+    "duration": 32
+  },
+  {
+    "octave" : 4,
+    "key" : 6,
+    "duration": 32
+  },
+  {
+    "octave" : 4,
+    "key" : 7,
+    "duration": 16
+  }
+
+]

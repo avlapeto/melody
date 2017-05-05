@@ -1,0 +1,74 @@
+.block-notes{
+    border: 1px solid black;
+    display: inline-block;
+    height: 147px;
+    background: url("/images/background.jpg") repeat-x 0 2px;
+    position: relative;
+    min-width: 160px;
+}
+
+div.box-notes-container{
+    margin: 30px;
+}
+
+span.note{
+    display: inline-block;
+
+}
+
+span.note-inner{
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 4px;
+    height: 4px;
+
+}
+
+.note-solid .note-inner{
+    background: black;
+}
+
+.note.note-8 .note-inner:after,
+.note.note-16 .note-inner:after{
+    content: '|';
+    position: absolute;
+    top: -15px;
+    left: 3px;
+}
+
+.note.note-4 .note-inner:after{
+    content: '|~';
+    position: absolute;
+    top: -15px;
+    left: 3px;
+}
+
+.note.note-2 .note-inner:after{
+    content: '||';
+    position: absolute;
+    top: -15px;
+    left: 3px;
+}
+
+.note.note-1 .note-inner:after{
+    content: '||~';
+    position: absolute;
+    top: -15px;
+    left: 3px;
+}
+
+.error-container .error{
+    color: red;
+    font-weight: 600;
+}
+
+.control input{
+    margin: 10px;
+}
+
+
+
+/*div{*/
+    /*display: inline-block;*/
+/*}*/
