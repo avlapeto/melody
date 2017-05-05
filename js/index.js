@@ -71,8 +71,6 @@
                 xhr.onreadystatechange = function() {
                     if (this.readyState != 4) return;
 
-
-
                     if (this.status != 200) {
                         reject( `Sorry, error on server...`);
 
@@ -238,7 +236,7 @@
         constructor(message){
             super(message);
             this.message = message;
-            this.log(message);
+            this.log();
         }
 
         log(){
